@@ -19,7 +19,10 @@
           alt="Twitter"
         />
       </a>
-      <a href="https://www.linkedin.com/in/david-lucas-b04a91188/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/david-lucas-b04a91188/"
+        target="_blank"
+      >
         <img
           src="https://image.flaticon.com/icons/png/512/61/61109.png"
           class="imRRSS"

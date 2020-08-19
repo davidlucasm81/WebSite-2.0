@@ -44,7 +44,10 @@
             alt="Python"
           />
         </a>
-        <a href="https://platzi.com/cursos/fundamentos-javascript/" target="_blank">
+        <a
+          href="https://platzi.com/cursos/fundamentos-javascript/"
+          target="_blank"
+        >
           <img
             src="https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png"
             width="50"

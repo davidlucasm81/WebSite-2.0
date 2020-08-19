@@ -1,7 +1,10 @@
 <template>
   <header>
     <a href="#header">
-      <img src="https://i.ibb.co/WGBRrRd/flecha-Arriba.png" class="button__up" />
+      <img
+        src="https://i.ibb.co/WGBRrRd/flecha-Arriba.png"
+        class="button__up"
+      />
     </a>
     <section id="header" class="header">
       <img

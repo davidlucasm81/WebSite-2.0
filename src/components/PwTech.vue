@@ -12,11 +12,26 @@
         src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-512.png"
         alt="JavaScript"
       />
-      <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt="Git" />
-      <img src="https://dsirtech.com/wp-content/uploads/2019/06/C-Language-icon.png" alt="C" />
-      <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg" alt="HTML5" />
-      <img src="https://icon-library.com/images/css-icon-png/css-icon-png-25.jpg" alt="CSS" />
-      <img src="https://icon-library.com/images/node-js-icon/node-js-icon-2.jpg" alt="NodeJS" />
+      <img
+        src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png"
+        alt="Git"
+      />
+      <img
+        src="https://dsirtech.com/wp-content/uploads/2019/06/C-Language-icon.png"
+        alt="C"
+      />
+      <img
+        src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg"
+        alt="HTML5"
+      />
+      <img
+        src="https://icon-library.com/images/css-icon-png/css-icon-png-25.jpg"
+        alt="CSS"
+      />
+      <img
+        src="https://icon-library.com/images/node-js-icon/node-js-icon-2.jpg"
+        alt="NodeJS"
+      />
       <img
         src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-3/512/367_Vuejs-512.png"
         alt="VueJS"
