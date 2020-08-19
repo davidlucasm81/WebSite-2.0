@@ -44,10 +44,7 @@
             alt="Python"
           />
         </a>
-        <a
-          href="https://platzi.com/cursos/fundamentos-javascript/"
-          target="_blank"
-        >
+        <a href="https://platzi.com/cursos/fundamentos-javascript/" target="_blank">
           <img
             src="https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png"
             width="50"
@@ -101,6 +98,14 @@
             width="50"
             height="50"
             alt="Backend Java"
+          />
+        </a>
+        <a href="https://platzi.com/cursos/vuejs/" target="_blank">
+          <img
+            src="https://static.platzi.com/media/achievements/badge-basico-vue-js-a86950de-232c-4ebe-b635-a0bba62f87ae.png"
+            width="50"
+            height="50"
+            alt="Vue.js básico"
           />
         </a>
       </article>
