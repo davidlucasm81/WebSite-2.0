@@ -89,3 +89,123 @@
     </article>
   </section>
 </template>
+
+<style scoped>
+@keyframes derecha {
+  0% {
+    right: -100vw;
+  }
+  100% {
+    right: 0;
+  }
+}
+@keyframes izquierda {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes girarDerecha {
+  from {
+    transform: rotate(0deg) scale(0, 0);
+  }
+  to {
+    transform: rotate(360deg) scale(1, 1);
+  }
+}
+@keyframes girarIzquierda {
+  from {
+    transform: rotate(360deg) scale(0, 0);
+  }
+
+  to {
+    transform: rotate(0deg) scale(1, 1);
+  }
+}
+.element__portafolio__articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.element__portafolio {
+  background: #969393;
+  border-color: #606064;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 20px 20px 0px;
+
+  margin: 5px;
+  max-width: 140px;
+  width: 100%;
+
+  position: relative;
+  animation-name: izquierda;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+.articles__long,
+.articles__small {
+  background: #3d3d40;
+  border-color: #5f5f5f;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.articles__small {
+  max-width: 33vw;
+  width: 100%;
+  border-width: 1px;
+  margin: 20px;
+  padding: 10px;
+  animation-name: girarDerecha, derecha;
+  animation-duration: 4s;
+}
+.articles__long {
+  max-width: 50vw;
+  width: 100%;
+  border-width: 1px;
+  margin: 20px;
+  padding: 10px;
+  animation-name: girarIzquierda, izquierda;
+  animation-duration: 4s;
+}
+.image__small {
+  max-width: 23vw;
+  max-height: 27vw;
+}
+
+.image__long {
+  max-width: 33vw;
+  max-height: 27vw;
+}
+
+.image__small,
+.image__long {
+  background: #3d3d40;
+  border-color: #5f5f5f;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .articles__long,
+  .articles__small {
+    max-width: 90vw;
+    width: 100%;
+  }
+  .image__small,
+  .image__long {
+    max-width: 75vw;
+    max-height: 75vw;
+  }
+}
+</style>

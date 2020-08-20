@@ -112,3 +112,40 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+.element__courses__articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.courses__articles__first {
+  background: #3d3d40;
+  border-color: #5f5f5f;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+
+  padding: 10px;
+  border-width: 1px;
+  margin: 20px;
+  transform: scale(0, 0);
+
+  max-width: 77vw;
+}
+.element__courses {
+  background: #969393;
+  border-color: #606064;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 20px 20px 0px;
+
+  position: relative;
+  left: -50vw;
+  max-width: 110px;
+}
+</style>
+
