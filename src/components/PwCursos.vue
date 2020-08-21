@@ -108,6 +108,14 @@
             alt="Vue.js básico"
           />
         </a>
+        <a href="https://platzi.com/cursos/vuejs-profesional/" target="_blank">
+          <img
+            src="https://static.platzi.com/media/achievements/badge-vue-js-profesional-943bb345-d1ac-4573-8805-7891cf2276e7.png"
+            width="50"
+            height="50"
+            alt="Vue.js Profesional"
+          />
+        </a>
       </article>
     </section>
   </div>
