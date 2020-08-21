@@ -116,6 +116,14 @@
             alt="Vue.js Profesional"
           />
         </a>
+        <a href="https://platzi.com/cursos/typescript/" target="_blank">
+          <img
+            src="https://static.platzi.com/media/achievements/badge-fundamentos-typescript-de971b70-f004-443a-b3e6-35ad2fb901c7.png"
+            width="50"
+            height="50"
+            alt="TypeScript"
+          />
+        </a>
       </article>
     </section>
   </div>
